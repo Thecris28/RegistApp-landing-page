@@ -223,6 +223,10 @@ body{
 }
 
 @media(min-width: 768px){
+    .nav__link{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
     .portada__menu{
         display: flex;
         align-items: center;
