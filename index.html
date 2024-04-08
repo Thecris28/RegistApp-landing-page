@@ -11,15 +11,19 @@
 </head>
 
 <body>
+    <input type="checkbox" id="togle-menu">
     <header class="portada">
         <nav class="nav container">
             <figure class="nav__logo">
                 <img src="./img/logo-blanco.svg" alt="" class="nav__img">
                 <p class="nav__title">RegistrAPP</p>
             </figure>
-
-            <a href="#" class="nav__link">Inicio</a>
-            <a href="#propiedades" class="nav__link">Caracteristicas</a>
+            <label for="togle-menu"><img class="hamburger" src="./img/hamburger.svg" alt=""></label>
+            <div class="nav__links">
+                <a href="#" class="nav__link">Inicio</a>
+                <a href="#propiedades" class="nav__link">Caracteristicas</a>
+                <a href="#contact" class="nav__link">Contacto</a>
+            </div>
         </nav>
 
         <section class="portada__menu container">
@@ -97,7 +101,7 @@
             </div>
         </div>
         </section>
-        <section class="contacto">
+        <section id="contact" class="contacto">
             <div class="contacto__container container">
                 <div class="contacto__texto">
                     <h2 class="contacto__titulo">¿Tienes dudas o sugerencias?</h2>
